@@ -212,7 +212,7 @@ class TableMaker:
                     x += xd
                 elif ha == 'center':
                     x += xd / 2
-                self.fig.text(x, y + yd / 2, text, family='Helvetica', 
+                self.fig.text(x, y + yd / 2, text, family='SimHei', 
                               size=self.fontsize, ha=ha, va='center', weight=weight)
                 if ha == 'left':
                     x += xd
