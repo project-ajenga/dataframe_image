@@ -10,16 +10,16 @@ with open('README.md', 'r') as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='dataframe_image',
+    name='dataframe_image_cn',
     version=version,
-    author='Ted Petrou',
-    author_email='petrou.theodore@gmail.com',
+    author='Puyuan Tech',
+    author_email='jch@puyuan.tech',
     description='Embed pandas DataFrames as images in pdf and markdown files when '
-                'converting from Jupyter Notebooks',
+                'converting from Jupyter Notebooks (Use font SimHei)',
     long_description=long_description,
     long_description_content_type='text/markdown',
     keywords='jupyter notebook pandas dataframe image pdf markdown',
-    url='https://github.com/dexplo/dataframe_image',
+    url='https://github.com/aslan9/dataframe_image',
     packages=setuptools.find_packages(),
     license='MIT',
     classifiers=[
