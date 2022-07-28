@@ -111,7 +111,7 @@ class TableMaker:
     
     def get_text_width(self, text):
         fig = self.text_fig
-        t = fig.text(0, 0, text, size=self.fontsize)
+        t = fig.text(0, 0, text, family='SimHei', size=self.fontsize)
         bbox = t.get_window_extent(renderer=self.renderer)
         return bbox.width
     
